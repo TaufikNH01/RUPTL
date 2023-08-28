@@ -9,7 +9,7 @@ import plotly.graph_objs as go
 
 # ------------------- RUEN ------------------- #
 
-RUEN_PATH = '/Users/pikpes/streamlit/project/RUEN_rtu.csv'
+RUEN_PATH = 'RUEN_rtu.csv'
 
 # ------------------- Setup and Data Loading ------------------- #
 def setup_ui():
@@ -137,7 +137,7 @@ if __name__ == "__main__":
 
 
 # ------------------- RUPTL ------------------- #
-RUPTL_PATH = '/Users/pikpes/streamlit/project/ruptl_trial.csv'
+RUPTL_PATH = 'ruptl_trial.csv'
 
 # ------------------- Setup and Data Loading ------------------- #
 def load_data(filepath):
